@@ -1,0 +1,14 @@
+@media  (max-width:873px){
+    h1{      
+        text-align: center;     
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .formulario{
+        margin: 5px;
+    }
+    .nav-link::after {    
+        width: 50%;
+    }
+}

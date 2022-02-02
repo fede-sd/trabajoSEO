@@ -1,0 +1,62 @@
+body {
+    font-family        : $san-serif;
+    background-image   : url(../img/fondo.jpg);
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: center;
+
+    .banner {
+        width           : 90%;
+        padding         : 1rem;
+        margin          : 2rem auto;
+        background-color: $colorBanner;
+    }
+
+    h1 {
+        //MIXIN
+        @include estiloTItulos($colorTituloPrincipal, left, 2rem, 0.4rem, none) ;     
+    }
+
+    h2 {
+        //MIXIN
+        @include estiloTItulos($colorTituloSecundario, center, 1rem, 0, 10px) ;        
+    }
+
+    section p {
+        //EXTEND
+        @extend %estiloParrafo;        
+        color     : $colorParrafo;
+    }
+
+    .contenedorimg {        
+        width : 30vw;
+        height: 35vh;
+        margin-bottom: 40px;
+    }
+
+    .text1{
+        margin-top: 15px;
+        color: white;
+        text-align: center;    
+        font-size: 2rem;
+        letter-spacing: 0.4rem;
+        font-weight: 600;
+        height: 10vh;
+        animation: text 2s 1;
+    }
+    
+    @keyframes text{
+        0%{
+            color: black;
+            margin-bottom: -10px;
+        }
+        30%{
+            letter-spacing: 1.5rem;
+            margin-bottom: -10px;
+        }
+        85%{
+            letter-spacing: 0.5rem;
+            margin-bottom: -10px;
+        }
+    }
+}

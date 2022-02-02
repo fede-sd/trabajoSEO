@@ -1,0 +1,7 @@
+@mixin estiloTItulos($color, $alineacion, $tamanio, $espacioLetra, $margenInferior) {
+    color         : $color;
+    text-align    : $alineacion;
+    font-size     : $tamanio;
+    letter-spacing: $espacioLetra;
+    margin-bottom : $margenInferior;
+}
