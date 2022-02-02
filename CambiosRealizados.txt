@@ -1,4 +1,4 @@
-utilice extend, mixin y maps, para darle estilos a los titulos parrafos y resaltar textos en el index.
+Utilice extend, mixin y maps, para darle estilos a los títulos párrafos y resaltar textos en el index.
 
 Agregue keywords y description en el index, pagina propiedades, pagina contacto. 
-Tambien cambie los titulos de cada una de las paginas
+También cambie los títulos de cada una de las paginas
